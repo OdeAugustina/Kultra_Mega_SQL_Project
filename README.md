@@ -1,7 +1,13 @@
+---
 # Kultra_Mega_SQL_Project
+
 SQL-based analysis of Kultra Mega Stores (KMS) sales data from 2009-2012 using Microsoft SQL Server. The purpose is to gain insights and drive strategic business decisions, and optimize revenue.
 
+---
+
 ## PROJECT TITLE: KMS SALES ANALYSIS
+
+
 
 [PROJECT OVERVIEW](#project-overview)
 
@@ -21,15 +27,27 @@ SQL-based analysis of Kultra Mega Stores (KMS) sales data from 2009-2012 using M
 
 [RECOMMENDATION](#recommendation)
 
+---
+
 
 ### PROJECT OVERVIEW 
 
+
+
 Kultra Mega Stores (KMS) deals in office supplies and furniture, supplying individual consumers, small businesses, and large corporate clients across Nigeria. The purpose of this project is to analyze KMS sales data from 2019-2012 from the  Abuja division using Microsoft SQL Server. The aim is to uncover actionable insights and make data-driven decisions that drive Performance, improve shipping costs, and customer relationships.
 
+---
+
 ### DATA SOURCES
+
+
 The source of data used for this analysis is the KMS SQL Case study and OrderBonus rules.csv, and this is an open-source dataset that can be freely downloaded from open-source online sites such as Kaggle or FRED, or any other data repository site.
 
+---
+
 ### TOOLS USED
+
+
 Ms Excel for Data Cleaning [Download Here](https://www.microsoft.com/en-us/microsoft-365/download-office)
  - For Data Collection
  - For Data preprocessing
@@ -37,15 +55,24 @@ Ms Excel for Data Cleaning [Download Here](https://www.microsoft.com/en-us/micro
 Microsoft SQL Server [Download here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 - Database management
 - SQL querying for extraction, analysis, and reporting.
-- 
+
+---
+
+
 ### DATA CLEANING AND PREPARATION
+
+
 In the initial phase of the Data Cleaning and preparations, I perform the following actions;
 1. Data Loading and Inspection
 2. Handling Missing Variables
 3. Data Cleaning and Formatting
 
+---
+
 
 ### EXPLORATORY DATA ANALYSIS
+
+
 The objective of this analysis is to explore, summarize key patterns and trends in the KMS data by answering the following important questions:
 1. Which product category had the highest sales?
 2. What are the Top 3 and Bottom 3 regions in terms of sales?
@@ -60,9 +87,11 @@ The objective of this analysis is to explore, summarize key patterns and trends 
 11. If the delivery truck is the most economical but the slowest shipping method, and Express Air is the fastest but the most expensive one, do you think the company appropriately spent shipping costs based on the Order Priority? Explain your answer
 
 
-
+---
 
 ### DATA ANALYSIS
+
+
 I used SQL queries in Microsoft SQL Server to extract, aggregate, and interpret key business metrics from historical order data (2009-2012). The analysis provides an understanding of the sales performance, customer behavior, and overall operational efficiency across the different product categories, regions, customer segments, shipping modes, and shipping methods.
 Key findings included: 
 - The best-performing products category and top/bottom regions in sales
@@ -151,6 +180,8 @@ Key findings included:
 
 
 
+
+---
 
 
 
@@ -244,10 +275,11 @@ Key findings included:
 
 ![Question 11](https://github.com/user-attachments/assets/e4b27a36-f466-402b-8909-60ae99688d54)
 
-
+---
 
 
 ### INSIGHTS
+
 
 - Technology is the highest performing product category with over $89,061.05 in sales.
 - The top-performing regions are West, Ontario, and Prairie, while the bottom-performing regions are Nunavut, Northwest, and Yukon.
@@ -259,9 +291,10 @@ Key findings included:
 - The majority of the returned products are from Corporate customers, which could indicate dissatisfaction with product quality or service delivery.
   
 
-
+---
 
 ### RECOMMENDATION
+
 
 - I recommend that the company expand its product offerings and consider reducing its profit margins or production costs for regions with low sales.
 - The company should consider giving incentives, start a loyalty program, and, if possible, personalize their service with the opportunity to provide feedback to retain their customers.
@@ -272,4 +305,4 @@ Key findings included:
 - The company should launch targeted marketing campaigns in the underperforming regions to increase awareness and drive sales.
 - The company should consider ways to reduce its production costs to better serve its customers.
  
-- 
+  ---
