@@ -70,51 +70,103 @@ Key findings included:
      - Identify the valuable and least performing customers
 - Evaluate the shipping cost and how it relates to the different shipping modes.
 
-```1. Which Product category had the highest Sales
-Select Product_Category,  Max(Sales) As Max_Sales From dbo.[KMS Sql Case Study]
-Group by Product_Category
-Order by Max_Sales desc```
 
-```%Female High Salary = DIVIDE([Female_HighSalary_Count],[Total_Male_Female])```
+<img width="463" alt="Query 1 " src="https://github.com/user-attachments/assets/ba306255-3c97-4170-a353-0c8ec84d650b" />
 
-```%Female Low Salary = DIVIDE([Female_LowSalary_Count],[Total_Male_Female])```
 
-```%Male Above Average = Divide([No of Males Rated Above Average],[Total_Male_Female])```
+![Query 2a](https://github.com/user-attachments/assets/3a6d274e-0465-4b67-93bd-c3ece3ddebdd)
 
-```%Male High Salary = DIVIDE([Male_HighSalary_Count],[Total_Male_Female])```
 
-```%Male Low Salary = DIVIDE([Male_LowSalary_Count],[Total_Male_Female])```
+![Query 2b](https://github.com/user-attachments/assets/af77d975-41f2-4ede-83f0-a06e9c47124b)
 
-```Average Salary by Gender = AVERAGE('Palmoria Group emp-data'[Salary])```
+<img width="557" alt="Query 3" src="https://github.com/user-attachments/assets/09c41710-22ab-4d0e-8358-d82dd34640bc" />
 
-```Total Pay = 'Palmoria Group emp-data'[Salary] + 'Palmoria Group emp-data'[Bonus Amount]```
+<img width="602" alt="Query 4" src="https://github.com/user-attachments/assets/ef5f55f2-7a46-4b58-a783-14e6af1bbc59" />
+
+
+
+![Query 5  png](https://github.com/user-attachments/assets/72ce5d20-a6d3-4c0e-8668-3623668b67f3)
+
+
+![Query 6](https://github.com/user-attachments/assets/3b2f9975-2706-4f33-a0a2-71ebe8402257)
+
+
+
+
+
+![Query 7](https://github.com/user-attachments/assets/40386c24-047f-4603-bfc7-2d0cbfe21087)
+
+
+
+![Query 8](https://github.com/user-attachments/assets/974d6cc4-5b9d-4e88-bcb6-695bf1adb577)
+
+
+
+
+![Query 9](https://github.com/user-attachments/assets/383d48f9-b233-4246-9314-373b53c79ae0)
+
+
+
+
+![Query 10](https://github.com/user-attachments/assets/120a2d43-4145-464a-b16c-73b675e1c167)
+
+
+
+
+![Query 11](https://github.com/user-attachments/assets/c2e99243-7ffc-47b4-8e38-bd3229d9b453)
+
+
+
 
 ### DATA VISUALIZATION
-After cleaning and creating New columns in Power Query, I applied the changes and used the Report Review for data visualization. Several expressions and functions were created to achieve the desired KPIs or metrics, providing a clear and actionable visual for informed decision-making. Some of the visuals are:
-- Gender Distribution
-- Salary Distribution
-- Gender Per Gap and Performance rating
-- Salary band and Bonus Distribution
+
+
+<img width="167" alt="Question 1 " src="https://github.com/user-attachments/assets/f82bfe87-0ebe-4d6a-a63f-5290b83b6cd3" />
 
 
 
+![Top3 Bot3](https://github.com/user-attachments/assets/053930ff-9d0a-4e27-9bbe-302820cc41ed)
+
+
+![Question 2a](https://github.com/user-attachments/assets/3d4dfaaa-93ca-47e8-ba60-e38aa538552c)
+
+
+![Question 2b](https://github.com/user-attachments/assets/5e0ce0e5-6d69-4289-92fa-44f1625e5f0d)
+
+
+<img width="217" alt="Question 3" src="https://github.com/user-attachments/assets/bb7edfa7-e801-4194-8176-3624bcd22f8d" />
+
+
+<img width="1301" alt="Question 4" src="https://github.com/user-attachments/assets/70934ab0-5553-45c6-b27b-f81979e04476" />
+
+
+![Question 5](https://github.com/user-attachments/assets/de83be50-6305-4645-918a-ba9100101e30)
+
+
+![Question 6](https://github.com/user-attachments/assets/a3dfae70-f24c-4f52-832c-1563358a3c4f)
+
+
+
+![Question 7](https://github.com/user-attachments/assets/3a232d66-230f-4597-92e0-871dc261e987)
+
+
+
+![Question 8](https://github.com/user-attachments/assets/21f8e0ac-64fd-4492-879a-5936c10f3710)
+
+
+![Question 9](https://github.com/user-attachments/assets/b99576bf-9b59-4364-b115-96135c0322f5)
+
+
+![Question 10](https://github.com/user-attachments/assets/1be35c08-328a-43bb-9776-5cca8c33b702)
+
+
+![Question 11](https://github.com/user-attachments/assets/e4b27a36-f466-402b-8909-60ae99688d54)
 
 
 
 
 ### INSIGHTS
-- The organization's gender is nearly balanced with 49.1 % Male, 46.6% Female, and 4.3% undisclosed. However, a department like Engineering, Legal, and Operations has lower female representation.
-- Males earn more on average than females.
-- The gender gap is significant in the Human Resources and Support departments.
-- Abuja shows the widest salary distribution between males and females across the regions
-- About 654 (69%) earn less than the $90000 minimum salary benchmark which indicates a lack of compliance.
-- Palmoria paid over $2.2 million in bonuses, with Kaduna receiving the largest share
-- The total amount paid by the company exceeded $71.9 million
+
 
 
 ### RECOMMENDATION
-While there are some gender pay gaps within Palmoria Group, especially in departments like HR, Legal, and Support, the data shows that the situation may not be as severe as the media suggests. The disparities aren't widespread, but they do exist and deserve attention.
-
-That said, the company needs to take clear steps toward fairness. We recommend focusing on closing salary gaps in the affected departments and making sure female employees are fairly compensated, especially when they have similar roles and performance to their male colleagues.
-
-Additionally, a significant number of employees earn below the $90,000 minimum wage benchmark. Addressing this will not only help Palmoria stay compliant but also improve employee satisfaction and reputation
